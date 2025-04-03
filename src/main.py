@@ -3,7 +3,7 @@ import logging
 
 from environs import env
 from yt_dlp import YoutubeDL
-from telegram import Update, Video
+from telegram import Update
 from telegram.ext import (
     ApplicationBuilder,
     CommandHandler,
