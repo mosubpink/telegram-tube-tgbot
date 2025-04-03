@@ -11,8 +11,6 @@ from telegram.ext import (
     MessageHandler,
     filters
 )
-import yt_dlp
-
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
