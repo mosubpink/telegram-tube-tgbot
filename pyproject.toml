@@ -1,0 +1,20 @@
+[project]
+name = "tgbot-telegram-bot"
+version = "0.1"
+dependencies = [
+    "environs",
+    "python-telegram-bot",
+    "yt-dlp"
+]
+requires-python = ">=3.14"
+[project.scripts]
+python-project = "python_project:main"
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
+reportMissingTypeStubs = false
+reportOptionalMemberAccess = false
+reportAssignmentType = false
+ reportArgumentType = false
+[tool.ruff.lint]
+ignore = ["BLE001"]
